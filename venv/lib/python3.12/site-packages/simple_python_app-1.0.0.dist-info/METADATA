@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: simple-python-app
+Version: 1.0.0
+Summary: A simple Python application for Jenkins pipeline demo
+Home-page: https://github.com/YOUR_USERNAME/simple-python-app
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+# Simple Python Application
+
+A simple Python application demonstrating Jenkins pipeline integration with automated testing, code quality checks, and packaging.
+
+## Features
+
+- **Calculator**: Basic mathematical operations
+- **Greeting Service**: Generate personalized greetings with timestamps
+- **List Utilities**: Common list operations and statistics
+- **CLI Interface**: Command-line interface for easy interaction
+- **Comprehensive Testing**: Unit tests with pytest
+- **Code Quality**: Linting with flake8 and formatting with black
+
+## Installation
+
+### From Source
+```bash
+git clone https://github.com/YOUR_USERNAME/simple-python-app.git
+cd simple-python-app
+pip install -e .

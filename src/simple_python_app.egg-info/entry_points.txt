@@ -1,0 +1,2 @@
+[console_scripts]
+simple-python-app = myapp.cli:main

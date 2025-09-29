@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+src/myapp/__init__.py
+src/myapp/app.py
+src/myapp/cli.py
+src/simple_python_app.egg-info/PKG-INFO
+src/simple_python_app.egg-info/SOURCES.txt
+src/simple_python_app.egg-info/dependency_links.txt
+src/simple_python_app.egg-info/entry_points.txt
+src/simple_python_app.egg-info/requires.txt
+src/simple_python_app.egg-info/top_level.txt
+tests/test_app.py
+tests/test_cli.py
